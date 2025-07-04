@@ -87,7 +87,7 @@ const TeamShirts = () => {
       </aside>
 
       {/* Product Grid Section */}
-      <main className="flex-1 px-6 py-[50px]">
+      <main className="flex-1 px-6 py-[90px]">
         <motion.div
           className="text-center mb-10"
           initial={{ opacity: 0, y: -20 }}
