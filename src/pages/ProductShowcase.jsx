@@ -5,7 +5,7 @@ const products = [
   {
     id: 1,
     name: "Pakistan World Cup Jersey 2024",
-    image: "/public/images/Pakistan Cricket/pakistan-jersey.png",
+    image: "/images/Pakistan Cricket/pakistan-jersey.png",
     price: "Rs. 2,999",
     tag: "World Cup",
     link: "/product/pakistan-world-cup-jersey",
@@ -13,7 +13,7 @@ const products = [
   {
     id: 2,
     name: "India T20 Jersey 2024",
-    image: "/public/images/india-jersey.jpg",
+    image: "/images/india-jersey.jpg",
     price: "Rs. 3,200",
     tag: "T20",
     link: "/product/india-t20-jersey",
@@ -21,7 +21,7 @@ const products = [
   {
     id: 3,
     name: "Australia ODI Jersey",
-    image: "/public/images/Australia Cricket/australia_jersey.jpg",
+    image: "/images/Australia Cricket/australia_jersey.jpg",
     price: "Rs. 3,500",
     tag: "ODI",
     link: "/product/australia-odi-jersey",

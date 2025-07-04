@@ -16,7 +16,7 @@ const slides = [
   {
     title: "IPL 2024 Jerseys",
     desc: "Cheer for your squad in exclusive IPL designs.",
-    img: "/images/India-Team-hero.png",
+    img: "/images/IPL-hero.png",
     link: "/teams",
     tag: "🏏 Hot Drop",
   },
