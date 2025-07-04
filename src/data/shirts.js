@@ -5,7 +5,7 @@ export const shirts = [
     price: 39.99,
     team: "England",
     description: "Official England WC 2024 jersey with breathable fabric.",
-    image: "/public/images/england-jersey.png",
+    image: "/images/england-jersey.png",
     color: "Blue",
     type: "World Cup",
     bestseller: true,
@@ -16,7 +16,7 @@ export const shirts = [
     price: 29.99,
     team: "India",
     description: "Dry-fit limited edition IPL 2023 shirt.",
-    image: "/public/images/england-jersey.png",
+    image: "/images/england-jersey.png",
     color: "Navy",
     type: "IPL",
     bestseller: false,
@@ -27,7 +27,7 @@ export const shirts = [
     price: 34.99,
     team: "Pakistan",
     description: "Lightweight & original PSL jersey.",
-    image: "/public/images/Pakistan-Cricket/pakistan-jersey.png",
+    image: "/images/Pakistan-Cricket/pakistan-jersey.png",
     color: "Green",
     bestseller: true,
   },
@@ -41,8 +41,7 @@ export const shirts = [
     team: "Pakistan",
     description:
       "Official 2024 WC jersey with aerodynamic fabric and sleek fit.",
-    image:
-      "/public/images/Pakistan-Cricket/Pakistan-Cricket-Team-2024-world-cup.png",
+    image: "/images/Pakistan-Cricket/Pakistan-Cricket-Team-2024-world-cup.png",
     color: "Dark Green",
     type: "World Cup",
     bestseller: true,
@@ -54,7 +53,7 @@ export const shirts = [
     team: "India",
     description:
       "India's 2024 WC jersey with tricolor accents and sweat-wicking tech.",
-    image: "/public/images/india-jersey.jpg",
+    image: "/images/india-jersey.jpg",
     color: "Blue",
     type: "World Cup",
     bestseller: true,
@@ -66,7 +65,7 @@ export const shirts = [
     team: "Australia",
     description:
       "Classic yellow and green 2024 WC jersey built for performance.",
-    image: "/public/images/Australia-Cricket/australia_jersey.jpg",
+    image: "/images/Australia-Cricket/australia_jersey.jpg",
     color: "Yellow",
     type: "World Cup",
     bestseller: false,
@@ -78,7 +77,7 @@ export const shirts = [
     team: "PSL",
     description:
       "High-quality PSL 2024 jersey with printed logo and mesh panels.",
-    image: "/public/images/Pakistan-Cricket/Karachi-jersey.png",
+    image: "/images/Pakistan-Cricket/Karachi-jersey.png",
     color: "Blue",
     type: "League",
     bestseller: true,
@@ -90,7 +89,7 @@ export const shirts = [
     team: "PSL",
     description:
       "High-quality PSL 2024 jersey with printed logo and mesh panels.",
-    image: "/public/images/Pakistan-Cricket/Peshawar-Zalmi-Home-Jersey.pngg",
+    image: "/images/Pakistan-Cricket/Peshawar-Zalmi-Home-Jersey.pngg",
     color: "Blue",
     type: "League",
     bestseller: true,
@@ -102,7 +101,7 @@ export const shirts = [
     team: "PSL",
     description:
       "High-quality PSL 2024 jersey with printed logo and mesh panels.",
-    image: "/public/images/Pakistan-Cricket/Karachi-jersey.png",
+    image: "/images/Pakistan-Cricket/Karachi-jersey.png",
     color: "Blue",
     type: "League",
     bestseller: true,
@@ -114,7 +113,7 @@ export const shirts = [
     team: "BBL",
     description:
       "BBL 2024 official jersey with breathable zones and team colors.",
-    image: "/public/images/Australia-Cricket/Melbourne-Stars-jersey.png",
+    image: "/images/Australia-Cricket/Melbourne-Stars-jersey.png",
     color: "Green",
     type: "League",
     bestseller: false,

@@ -4,31 +4,31 @@ import { Link } from "react-router-dom";
 const teams = [
   {
     name: "Pakistan",
-    image: "/public/images/Pakistan-Cricket/pakistan-jersey.png",
+    image: "/images/Pakistan-Cricket/pakistan-jersey.png",
   },
   {
     name: "India",
-    image: "/public/images/india-jersey.jpg",
+    image: "/images/india-jersey.jpg",
   },
   {
     name: "Australia",
-    image: "/public/images/Australia-Cricket/australia_jersey.jpg",
+    image: "/images/Australia-Cricket/australia_jersey.jpg",
   },
   {
     name: "England",
-    image: "/public/images/england-jersey.png",
+    image: "/images/england-jersey.png",
   },
   {
     name: "PSL",
-    image: "/public/images/Pakistan-Cricket/Islamabad-United-Home-Jersey.png",
+    image: "/images/Pakistan-Cricket/Islamabad-United-Home-Jersey.png",
   },
   {
     name: "IPL",
-    image: "/public/images/CSK-jersey.png",
+    image: "/images/CSK-jersey.png",
   },
   {
     name: "BBL",
-    image: "/public/images/Australia-Cricket/Melbourne-Stars-jersey.png",
+    image: "/images/Australia-Cricket/Melbourne-Stars-jersey.png",
   },
 ];
 
