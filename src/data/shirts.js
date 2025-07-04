@@ -1,0 +1,122 @@
+export const shirts = [
+  {
+    id: 1,
+    title: "England 2024 World Cup Jersey",
+    price: 39.99,
+    team: "England",
+    description: "Official England WC 2024 jersey with breathable fabric.",
+    image: "/images/england-jersey.png",
+    color: "Blue",
+    type: "World Cup",
+    bestseller: true,
+  },
+  {
+    id: 2,
+    title: "India IPL 2023 Jersey",
+    price: 29.99,
+    team: "India",
+    description: "Dry-fit limited edition IPL 2023 shirt.",
+    image: "/images/CSK-jersey.png",
+    color: "Navy",
+    type: "IPL",
+    bestseller: false,
+  },
+  {
+    id: 3,
+    title: "Pakistan Champion Trophy Jersey",
+    price: 34.99,
+    team: "Pakistan",
+    description: "Lightweight & original PSL jersey.",
+    image: "/public/images/Pakistan-Cricket/pakistan-jersey.png",
+    color: "Green",
+    bestseller: true,
+  },
+
+  // 🎯 New World Cup Jerseys Added Below
+
+  {
+    id: 4,
+    title: "Pakistan 2024 World Cup Jersey",
+    price: 37.99,
+    team: "Pakistan",
+    description:
+      "Official 2024 WC jersey with aerodynamic fabric and sleek fit.",
+    image:
+      "/public/images/Pakistan-Cricket/Pakistan-Cricket-Team-2024-world-cup.png",
+    color: "Dark Green",
+    type: "World Cup",
+    bestseller: true,
+  },
+  {
+    id: 5,
+    title: "India 2024 World Cup Jersey",
+    price: 36.5,
+    team: "India",
+    description:
+      "India's 2024 WC jersey with tricolor accents and sweat-wicking tech.",
+    image: "/images/india-wc2024.png",
+    color: "Blue",
+    type: "World Cup",
+    bestseller: true,
+  },
+  {
+    id: 6,
+    title: "Australia 2024 World Cup Jersey",
+    price: 35.0,
+    team: "Australia",
+    description:
+      "Classic yellow and green 2024 WC jersey built for performance.",
+    image: "/images/australia-wc2024.png",
+    color: "Yellow",
+    type: "World Cup",
+    bestseller: false,
+  },
+  {
+    id: 7,
+    title: "Karachi Kings",
+    price: 28.0,
+    team: "PSL",
+    description:
+      "High-quality PSL 2024 jersey with printed logo and mesh panels.",
+    image: "/public/images/Pakistan Cricket/Karachi-jersey.png",
+    color: "Blue",
+    type: "League",
+    bestseller: true,
+  },
+  {
+    id: 8,
+    title: "Peshawar Zalmi",
+    price: 28.0,
+    team: "PSL",
+    description:
+      "High-quality PSL 2024 jersey with printed logo and mesh panels.",
+    image: "/public/images/Pakistan Cricket/Peshawar-Zalmi-Home-Jersey.pngg",
+    color: "Blue",
+    type: "League",
+    bestseller: true,
+  },
+  {
+    id: 9,
+    title: "Islamabad",
+    price: 28.0,
+    team: "PSL",
+    description:
+      "High-quality PSL 2024 jersey with printed logo and mesh panels.",
+    image: "/public/images/Pakistan Cricket/Islamabad-United-Home-Jersey.png",
+    color: "Blue",
+    type: "League",
+    bestseller: true,
+  },
+  {
+    id: 10,
+    title: "BBL 2024 Official Jersey",
+    price: 30.0,
+    team: "BBL",
+    description:
+      "BBL 2024 official jersey with breathable zones and team colors.",
+    image: "/images/Melbourne-Stars-jersey.png",
+    color: "Green",
+    type: "League",
+    bestseller: false,
+  },
+];
