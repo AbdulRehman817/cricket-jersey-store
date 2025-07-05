@@ -35,17 +35,17 @@ const Hero = () => {
   const prev = () =>
     setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
-  // useEffect(() => {
-  //   const autoSlide = setInterval(next, 6000);
-  //   return () => clearInterval(autoSlide);
-  // }, [index]);
+  useEffect(() => {
+    const autoSlide = setInterval(next, 6000);
+    return () => clearInterval(autoSlide);
+  }, [index]);
 
   const slide = slides[index];
 
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative w-full h-[100vh] text-white overflow-hidden">
+      <section className="relative w-full h-[100vh] text-white overflow-x-hidden">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center transition-all duration-700"
@@ -63,19 +63,20 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-xl"
+            className="max-w-xl relative left-[70px]
+            "
           >
-            <span className="inline-block px-4 py-1 text-sm bg-[#FACC15] text-black rounded-full mb-4 font-semibold shadow-md">
+            <span className="inline-block px-4 py-1 text-[11px] bg-[#FACC15] text-black rounded-full mb-4 font-semibold shadow-md">
               {slide.tag}
             </span>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-[#FACC15] drop-shadow-lg">
+            <h1 className="text-[45px] md:text-6xl font-extrabold leading-tight text-[#FACC15] drop-shadow-lg">
               {slide.title}
             </h1>
-            <p className="text-lg mt-4 text-gray-300 mb-6">{slide.desc}</p>
+            <p className="text-[13px] mt-4 text-gray-300 mb-6">{slide.desc}</p>
 
             <Link
               to={slide.link}
-              className="inline-block bg-[#FACC15] hover:bg-yellow-400 text-black font-semibold px-7 py-3 rounded-full text-lg shadow-md transition"
+              className="inline-block bg-[#FACC15] hover:bg-yellow-400 text-black font-semibold px-7 py-3 rounded-full text-[12px] shadow-md transition"
             >
               Shop Now
             </Link>
