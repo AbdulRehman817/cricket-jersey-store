@@ -22,7 +22,7 @@ const Cart = () => {
   const totalPrice = items.reduce((acc, item) => acc + item.total, 0);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0F172A] to-[#1E293B] text-white px-6 py-[50px]">
+    <div className="min-h-screen bg-gradient-to-br from-[#0F172A] to-[#1E293B] text-white px-6 py-[100px]">
       <motion.h2
         className="text-3xl font-bold text-[#FACC15] mb-8 text-center"
         initial={{ opacity: 0, y: -20 }}

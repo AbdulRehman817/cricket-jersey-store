@@ -169,7 +169,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 flex flex-col justify-center items-start">
+        <div className="relative z-10  h-full max-w-6xl mx-auto px-[140px] sm:px-6 sm:relative md:px-10 flex flex-col justify-center items-start">
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 30 }}

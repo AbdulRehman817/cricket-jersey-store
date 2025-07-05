@@ -10,7 +10,7 @@ const Footer = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-10">
+      <div className="max-w-7xl mx-auto gap-[40px]  grid grid-cols-3 sm:grid-cols-2 sm:relative sm:my-auto lg:grid-cols-4 gap-10 pb-10">
         {/* Brand Info */}
         <div>
           <h3 className="text-2xl font-bold text-[#FACC15] mb-4">
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div>
+        <div className=" pl-[35px]">
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>

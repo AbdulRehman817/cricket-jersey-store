@@ -10,8 +10,18 @@ import {
   Minus,
 } from "lucide-react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ProductDetails = () => {
+  const navigate = useNavigate();
+  const Buynow = (e) => {
+    e.preventDefault();
+    navigate("/CheckoutPage");
+  };
+  const Addtocart = (e) => {
+    e.preventDefault();
+    navigate("/cart");
+  };
   const { id } = useParams();
   const shirt = shirts.find((s) => s.id === parseInt(id));
   const [quantity, setQuantity] = useState(1);
@@ -97,10 +107,16 @@ const ProductDetails = () => {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
-          <button className="flex items-center gap-2 justify-center bg-[#FACC15] text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-400 transition">
+          <button
+            onClick={Buynow}
+            className="flex items-center gap-2 justify-center bg-[#FACC15] text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-400 transition"
+          >
             <CheckCircle size={18} /> Buy Now
           </button>
-          <button className="flex items-center gap-2 justify-center border border-[#FACC15] text-[#FACC15] px-6 py-3 rounded-full hover:bg-[#FACC15] hover:text-black transition">
+          <button
+            onClick={Addtocart}
+            className="flex items-center gap-2 justify-center border border-[#FACC15] text-[#FACC15] px-6 py-3 rounded-full hover:bg-[#FACC15] hover:text-black transition"
+          >
             <ShoppingCart size={18} /> Add to Cart
           </button>
         </div>
