@@ -45,26 +45,23 @@ const Hero = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative w-full h-[100vh] text-white overflow-x-hidden">
+      <section className="relative w-full h-screen text-white overflow-x-hidden">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center transition-all duration-700"
-          style={{
-            backgroundImage: `url(${slide.img})`,
-          }}
+          style={{ backgroundImage: `url(${slide.img})` }}
         >
           <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 top-[20px] left-[20px] h-full max-w-7xl mx-auto px-6 flex flex-col justify-center items-start">
+        <div className="relative z-10 h-full max-w-7xl mx-auto px-6 md:px-10 flex flex-col justify-center items-start">
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-xl relative left-[70px]
-            "
+            className="max-w-xl"
           >
             <span className="inline-block px-4 py-1 text-[11px] bg-[#FACC15] text-black rounded-full mb-4 font-semibold shadow-md">
               {slide.tag}
@@ -73,7 +70,6 @@ const Hero = () => {
               {slide.title}
             </h1>
             <p className="text-[13px] mt-4 text-gray-300 mb-6">{slide.desc}</p>
-
             <Link
               to={slide.link}
               className="inline-block bg-[#FACC15] hover:bg-yellow-400 text-black font-semibold px-7 py-3 rounded-full text-[12px] shadow-md transition"
