@@ -9,21 +9,21 @@ const slides = [
   {
     title: "PSL 2024 Jerseys",
     desc: "Support your team in official PSL kits. Limited edition drops!",
-    img: "/images/Pakistan-Cricket/PSL-hero.png", // ✅ Corrected path
+    img: "/public/images/Pakistan-Cricket/PSL-hero.png",
     link: "/teams",
     tag: "🔥 Trending Now",
   },
   {
     title: "IPL 2024 Jerseys",
     desc: "Cheer for your squad in exclusive IPL designs.",
-    img: "/images/IPL-hero.png", // ✅ Corrected path
+    img: "/public/images/IPL-hero.png",
     link: "/teams",
     tag: "🏏 Hot Drop",
   },
   {
     title: "BBL 2024 Jerseys",
     desc: "Rep your Big Bash League favorites in style.",
-    img: "/images/Australia-Cricket/BBL-hero.png", // ✅ Corrected path
+    img: "/public/images/Australia-Cricket/BBL-hero.png",
     link: "/teams",
     tag: "🚨 New Arrival",
   },
@@ -35,17 +35,17 @@ const Hero = () => {
   const prev = () =>
     setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
-  useEffect(() => {
-    const autoSlide = setInterval(next, 6000);
-    return () => clearInterval(autoSlide);
-  }, [index]);
+  // useEffect(() => {
+  //   const autoSlide = setInterval(next, 6000);
+  //   return () => clearInterval(autoSlide);
+  // }, [index]);
 
   const slide = slides[index];
 
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative w-full min-h-screen text-white overflow-hidden overflow-y-hidden">
+      <section className="relative w-full h-[100vh] text-white overflow-hidden">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center transition-all duration-700"
@@ -57,7 +57,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 h-full max-w-7xl mx-auto px-6 flex flex-col justify-center items-start py-20">
+        <div className="relative z-10 top-[20px] left-[20px] h-full max-w-7xl mx-auto px-6 flex flex-col justify-center items-start">
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 30 }}
