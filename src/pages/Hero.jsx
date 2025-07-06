@@ -36,10 +36,10 @@ const Hero = () => {
   const prev = () =>
     setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
-  useEffect(() => {
-    const autoSlide = setInterval(next, 6000);
-    return () => clearInterval(autoSlide);
-  }, [index]);
+  // useEffect(() => {
+  //   const autoSlide = setInterval(next, 6000);
+  //   return () => clearInterval(autoSlide);
+  // }, [index]);
 
   const slide = slides[index];
 
