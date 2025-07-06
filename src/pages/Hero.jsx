@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import TopLeagues from "./TopLeagues";
 import About from "./About";
-import "./Hero.css";
+import "./hero.css";
 
 const slides = [
   {
