@@ -44,10 +44,10 @@ const router = createBrowserRouter([
       { path: "/teams", element: <Teams /> },
       { path: "/teams/:teamName", element: <TeamShirts /> },
       { path: "*", element: <h1>404 - Not Found</h1> },
+      { path: "/login", element: <Login /> },
+      { path: "/signup", element: <Signup /> },
     ],
   },
-  { path: "/Login", element: <Login /> },
-  { path: "/Signup", element: <Signup /> },
 ]);
 
 createRoot(document.getElementById("root")).render(

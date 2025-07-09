@@ -27,7 +27,7 @@
   height: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,7 +87,7 @@
   transform: translateY(-50%);
   z-index: 30;
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 8px;
+  padding: 5px;
   border-radius: 9999px;
   cursor: pointer;
   transition: background 0.3s;
